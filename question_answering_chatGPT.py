@@ -38,7 +38,7 @@ document_store.delete_documents()
 document_store.write_documents(processed_docs)
 
 print("Updated document store")
-MY_API_KEY = "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"
+MY_API_KEY = "sk-xxxxxxxxxxxxxxxxxxxxxxxxx"
 retriever = EmbeddingRetriever(
     document_store=document_store,
     embedding_model="text-embedding-ada-002",
